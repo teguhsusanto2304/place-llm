@@ -76,15 +76,15 @@ http://localhost:8080
 
 Log in to the application.
 
-image/login.png
+![Login Open-webui](image/login.png "Login Open-webui")
 
 Select the travelmapbot model from the dropdown menu and start chatting!
 
-image/chat.png
+![Chat](image/chat.png "Chat feature")
 
 The model will respond, which you can use to power various mapping actions in a front-end application.
 
-image/find_place.png
+![Chat](image/find_place.png "Response Chat feature")
 
 Example Conversation:
 
@@ -97,7 +97,7 @@ The iconic Statue of Liberty is located in Liberty Island, New York Harbor. You 
 
 View on Google Maps
 
-image/map.png
+![Map](image/map.png "Map view feature")
 
 The statue is open to the public and offers stunning views of the Manhattan skyline. You can also visit the nearby Ellis Island Immigration Museum, which tells the story of immigration in the United States.
 
