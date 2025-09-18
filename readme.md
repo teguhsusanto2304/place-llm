@@ -1,6 +1,6 @@
 # travelmapbot 
 A Custom Travel Assistant powered by Ollama and Open-WebUI
-This project demonstrates how to create a custom, locally-runnable travel assistant using Ollama and Open-WebUI. The assistant, named travelmapbot, is designed to provide JSON-formatted responses for finding places and generating routes, which can then be used by a front-end application to display information on a map.
+This project demonstrates how to create a custom, locally-runnable travel assistant using Ollama and Open-WebUI. The assistant, named travelmapbot, is designed to provide text and map link responses for finding places and generating routes, which can then be used by a front-end application to display information on a map.
 ## 1. Environtment
 1. Python 3.xx
 2. Docker
@@ -19,7 +19,7 @@ First, you need to define the behavior of your travel assistant.
 Add the following content to the Modelfile. This file instructs Ollama to use the llama3:8b base model and provides a system prompt that forces the model to respond in a specific JSON format.
 
 **Modelfile**
-
+```
 FROM llama3:8b
 
 SYSTEM """
@@ -32,6 +32,7 @@ When you mention a location, always include a clickable Google Maps link, for ex
 Keep your reply as plain text with no JSON.
 Do not include extra formatting unless needed for links.
 """
+```
 
 
 ## Step 2: Build the Model
