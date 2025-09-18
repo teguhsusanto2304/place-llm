@@ -81,7 +81,7 @@ Select the travelmapbot model from the dropdown menu and start chatting!
 
 The model will respond, which you can use to power various mapping actions in a front-end application.
 
-![Chat](image/find_place.png "Response Chat feature")
+
 
 Example Conversation:
 
@@ -92,6 +92,8 @@ Expected travelmap Response:
 ```
 
 ![Chat](image/chat.png "Chat feature") 
+
+![Chat](image/find_place.png "Response Chat feature")
 
 The iconic Statue of Liberty is located in Liberty Island, New York Harbor. You can take a ferry from Battery Park in Manhattan or Liberty State Park in Jersey City to get there.
 
