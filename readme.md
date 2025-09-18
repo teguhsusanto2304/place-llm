@@ -76,9 +76,15 @@ http://localhost:8080
 
 Log in to the application.
 
+image/login.png
+
 Select the travelmapbot model from the dropdown menu and start chatting!
 
-The model will respond with structured JSON, which you can use to power various mapping actions in a front-end application.
+image/chat.png
+
+The model will respond, which you can use to power various mapping actions in a front-end application.
+
+image/find_place.png
 
 Example Conversation:
 
@@ -90,6 +96,8 @@ Expected travelmap Response:
 The iconic Statue of Liberty is located in Liberty Island, New York Harbor. You can take a ferry from Battery Park in Manhattan or Liberty State Park in Jersey City to get there.
 
 View on Google Maps
+
+image/map.png
 
 The statue is open to the public and offers stunning views of the Manhattan skyline. You can also visit the nearby Ellis Island Immigration Museum, which tells the story of immigration in the United States.
 
