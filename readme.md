@@ -76,7 +76,7 @@ http://localhost:8080
 
 Log in to the application.
 
-![Login Open-webui](image/login.png "Login Open-webui")
+![Login](image/login.png "Login Open-webui")
 
 Select the travelmapbot model from the dropdown menu and start chatting!
 
