@@ -70,17 +70,14 @@ open-webui serve
 ## 3. Usage
 Once both services are running, you can access the Open-WebUI application in your web browser.
 
+![Login](image/login.png "Login Open-webui")
 Open your browser and go to ```
 http://localhost:8080
 ```.
 
 Log in to the application.
 
-![Login](image/login.png "Login Open-webui")
-
 Select the travelmapbot model from the dropdown menu and start chatting!
-
-![Chat](image/chat.png "Chat feature")
 
 The model will respond, which you can use to power various mapping actions in a front-end application.
 
@@ -93,6 +90,9 @@ User Input: where liberty statue
 Expected travelmap Response:
 
 ```
+
+![Chat](image/chat.png "Chat feature") 
+
 The iconic Statue of Liberty is located in Liberty Island, New York Harbor. You can take a ferry from Battery Park in Manhattan or Liberty State Park in Jersey City to get there.
 
 View on Google Maps
